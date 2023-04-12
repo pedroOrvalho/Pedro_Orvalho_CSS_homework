@@ -1,0 +1,321 @@
+html {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    width: auto;
+    margin: 0px 0px;
+    top: -20px;
+}
+
+.header {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(132, 7, 132, 0.896);
+    width: 100%;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+    color: white;
+}
+
+.logo {
+    font-weight: 300;
+    font-size: 56px;
+}
+
+.nav_list {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.hero {
+    height: 700px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.1% 4%;
+    position: relative;
+}
+
+.hero::before {
+    content: ' ';
+    background-image: url("./resources/images/aneta-voborilova-RQYAbzjCK6k-unsplash.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    position: absolute;
+    inset: 0;
+    opacity: 0.7;
+  } 
+
+  .hero_tag {
+      font-size: 36px;
+      color: white;
+      isolation: isolate;
+  }
+
+.hero_info_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    isolation: isolate;
+    row-gap: 20px;
+    position: relative;
+    top: 10%;
+}
+
+.hero_info {
+    color: white;
+    isolation: isolate;
+    font-size: 20px;
+}
+
+
+.hero_buttom {
+    height: 50px;
+    width: 250px;
+    background-color: rgb(222, 45, 172);
+    color:rgb(255, 255, 255);
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: medium;
+}
+
+.first_section {
+    color: white;
+}
+
+.first_info {
+    display: flex;
+    margin: 0px 25px;
+    margin-top: 40px;
+
+}
+
+.tradition_container {
+    width: 30%;
+    height: 500px;
+    background-color: rgba(132, 7, 132, 0.896);
+}
+
+.tradition {
+    height: 100%;
+    margin: 0px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tradition h3 {
+    font-size: 46px;
+    margin-bottom: 0px;
+}
+
+.tradition p {
+    line-height: 46px;
+    font-size: 18px;
+}
+
+.first_info_pic_container {
+    width: 40%;
+    height: 500px;
+}
+
+.first_info_pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: 50% 50%;
+}
+
+.creativity_container {
+    width: 30%;
+    height: 500px;
+    background-color: rgb(224, 33, 154);
+}
+
+.creativity {
+    height: 100%;
+    margin: 0px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.creativity h3 {
+    font-size: 46px;
+    margin-bottom: 0px;
+}
+
+.creativity p {
+    line-height: 46px;
+    font-size: 18px;
+}
+
+
+.second_info {
+    display: flex;
+    margin: 0px 25px;
+}
+
+
+.what_we_bake_container {
+    width: 50%;
+    height: 350px;
+    background-color: rgb(249, 149, 187);
+}
+
+.what_we_bake {
+    height: 100%;
+    margin: 0px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.what_we_bake h3 {
+    font-size: 46px;
+    margin-bottom: 0px;
+}
+
+.what_we_bake p {
+    line-height: 46px;
+    font-size: 18px;
+}
+
+.second_info_pic_container {
+    width: 25%;
+    height: 350px;
+}
+
+.second_info_pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: 50% 50%;
+}
+
+.quality_container {
+    width: 25%;
+    height: 350px;
+    background-color: rgba(205, 98, 244, 0.995);
+}
+
+.quality {
+    height: 100%;
+    margin: 0px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quality h3 {
+    font-size: 46px;
+    margin-bottom: 0px;
+}
+
+.quality p {
+    line-height: 46px;
+    font-size: 18px;
+}
+
+.second_section {
+    color:white;
+    margin: 0px 25px;
+}
+
+.second_section_info_container {
+    display: flex;
+}
+
+
+
+.second_section_pic_container {
+    width: 25%;
+    height: 600px;
+}
+
+.second_section_pic {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.second_section_text_container {
+    width: 25%;
+    height: 600px;
+    background-color: rgba(132, 7, 132, 0.896);
+}
+
+.second_section_text {
+    height: 100%;
+    margin: 0px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second_section_text h3 {
+    font-size: 46px;
+    margin-bottom: 0px;
+}
+
+.second_section_text p {
+    line-height: 46px;
+    font-size: 18px;
+}
+
+
+
+.second_section_pic2_container {
+    width: 50%;
+    height: 600px;
+}
+
+.second_section_pic2 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.stats {
+    height: 300px;
+    display: flex;
+    background-color: white;
+    color:black;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.stats_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats_info h3 {
+    color:rgba(88, 20, 151, 0.909);
+    font-size: 46px;
+}
+
+.stats_info p {
+    font-size: 38px;
+    margin-top: 0px;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
